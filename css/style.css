@@ -2181,6 +2181,7 @@ textarea.input {
   height: auto;
   display: block;
   margin: 0 auto; /* Wyśrodkowanie */
+  margin-left: 50%;
 }
 
 @media only screen and (max-width: 480px) {
@@ -2199,5 +2200,6 @@ textarea.input {
     width: 70%; /* Dopasuj rozmiar, np. 70% szerokości */
     margin: 0 auto; /* Centruje logo */
     display: block;
+    margin-left: 15% !important;
   }
 }
