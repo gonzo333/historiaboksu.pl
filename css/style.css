@@ -2175,6 +2175,14 @@ textarea.input {
   }
 }
 
+.header-logo img {
+  width: 100%; /* Domyślnie duży rozmiar */
+  max-width: 600px; /* Maksymalna szerokość na dużych ekranach */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Wyśrodkowanie */
+}
+
 @media only screen and (max-width: 480px) {
   [class*='col-xs'] {
     width: 100%;
@@ -2186,5 +2194,10 @@ textarea.input {
   .store-pagination {
     float: none;
     margin-top: 10px;
+  }
+  .header-logo img {
+    width: 70%; /* Dopasuj rozmiar, np. 70% szerokości */
+    margin: 0 auto; /* Centruje logo */
+    display: block;
   }
 }
